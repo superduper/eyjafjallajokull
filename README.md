@@ -9,7 +9,7 @@ Tired of CORS issues? This is a solution for you! This proxy server allows you t
 
 ### How to use it?
 
-1. Add your endpoints to a config file
+#### 1. Add your endpoints to a config file
 
 Config is a json formatted list of routes. By default `eyjafjallajokull` looks for a `routes.json` in current directory to get routes configuration. 
 
@@ -39,7 +39,7 @@ Here's how a config will look like:
 ]
 ````
 
-2. Run proxy
+#### 2. Run proxy
 
 ```
 ./eyjafjallajokul -h
