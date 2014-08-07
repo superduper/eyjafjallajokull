@@ -7,15 +7,22 @@ Tired of CORS issues? This is a solution for you! This proxy server allows you t
 
 1. Add your endpoints to a config file
 
+Let's say:
+- Your grunt(or other) server lives at `localhost:9000`
+- API that you want to use lives at `derpeddit.herokuapp.com`
+- APIs that `derpeddit.herokuapp.com` provides start with a prefix `api`
+
+Here's how a config will look like
+
 ```json
 [
 	{	"path":"/api",
 		"endpoint":"https://derpeddit.herokuapp.com",
 		"hostname": "derpeddit.herokuapp.com"
 	},
-	{   "path":"/*",
-		"endpoint":"http://localhost:8000", 
-		"hostname":"localhost:8000"
+	{       "path":"/",
+		"endpoint":"http://localhost:9000", 
+		"hostname":"localhost:9000"
 	}
 ]
 ````
