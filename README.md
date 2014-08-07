@@ -20,7 +20,7 @@ Here's how a config will look like
 		"endpoint":"https://derpeddit.herokuapp.com",
 		"hostname": "derpeddit.herokuapp.com"
 	},
-	{       "path":"/",
+	{	"path":"/",
 		"endpoint":"http://localhost:9000", 
 		"hostname":"localhost:9000"
 	}
