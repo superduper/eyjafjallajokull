@@ -18,7 +18,6 @@ Tired of CORS issues? This is a solution for you! This proxy server allows you t
 		"hostname":"localhost:8000"
 	}
 ]
- }]
 ````
 
 2. Run proxy
