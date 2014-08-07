@@ -1,0 +1,10 @@
+[
+	{	"path":"/api",
+		"endpoint":"https://derpeddit.herokuapp.com",
+		"hostname": "derpeddit.herokuapp.com"
+	},
+	{   "path":"/*",
+		"endpoint":"http://localhost:8000", 
+		"hostname":"localhost:8000"
+	}
+]
