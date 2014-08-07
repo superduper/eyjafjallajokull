@@ -3,16 +3,28 @@ reverse http proxy
 
 Tired of CORS issues? This is a solution for you! This proxy server allows you to serve your content and someones apis from a single host eliminating need of CORS headers. 
 
+### What is it?
+
+`eyjafjallajokull` is a [reverse proxy](http://en.wikipedia.org/wiki/Reverse_proxy). In few words: it's an http server that diverts requests to other other http servers(`endpoints`). 
+
 ### How to use it?
 
 1. Add your endpoints to a config file
+
+Config is a json formatted list of routes. By default `eyjafjallajokull` looks for a `routes.json` in current directory to get routes configuration. 
+
+Route properties are:
+- `hostname` property will defines a value for `Host` header
+- `endpoint` is a url to a server that will respond to requests
+- `path` is a regex pattern for request routing by URI
+
 
 Let's say:
 - Your grunt(or other) server lives at `localhost:9000`
 - API that you want to use lives at `derpeddit.herokuapp.com`
 - APIs that `derpeddit.herokuapp.com` provides start with a prefix `/api`
 
-Here's how a config will look like
+Here's how a config will look like:
 
 ```json
 [
