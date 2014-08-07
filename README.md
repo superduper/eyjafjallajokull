@@ -10,7 +10,7 @@ Tired of CORS issues? This is a solution for you! This proxy server allows you t
 Let's say:
 - Your grunt(or other) server lives at `localhost:9000`
 - API that you want to use lives at `derpeddit.herokuapp.com`
-- APIs that `derpeddit.herokuapp.com` provides start with a prefix `api`
+- APIs that `derpeddit.herokuapp.com` provides start with a prefix `/api`
 
 Here's how a config will look like
 
