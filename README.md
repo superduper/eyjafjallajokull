@@ -32,3 +32,9 @@ Tired of CORS issues? This is a solution for you! This proxy server allows you t
 ```
 
 Et voila! Access your server at localhost:8999
+
+
+### Download binaries 
+
+Windows version x64: https://github.com/superduper/eyjafjallajokull/raw/master/build/eyjafjallajokull.amd64.exe
+Windows version i386: https://github.com/superduper/eyjafjallajokull/raw/master/build/eyjafjallajokull.i386.exe
