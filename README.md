@@ -59,5 +59,5 @@ Et voila! Access your server at localhost:8999
 - [Windows i386](https://github.com/superduper/eyjafjallajokull/raw/master/build/eyjafjallajokull.i386.exe)
 - [Linux x64](https://github.com/superduper/eyjafjallajokull/raw/master/build/eyjafjallajokull.linux.amd64)
 - [Linux i386](https://github.com/superduper/eyjafjallajokull/raw/master/build/eyjafjallajokull.linux.i386)
-- [Mac OS X x64](https://github.com/superduper/eyjafjallajokull/raw/master/build/eyjafjallajokull.linux.amd64)
+- [Mac OS X x64](https://github.com/superduper/eyjafjallajokull/raw/master/build/eyjafjallajokull.macosx.amd64)
 
